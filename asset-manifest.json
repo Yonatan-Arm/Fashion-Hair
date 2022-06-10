@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Fashion-Hair/static/css/main.feae6f10.css",
+    "main.js": "/Fashion-Hair/static/js/main.0fd2cd61.js",
+    "static/js/787.cda612ba.chunk.js": "/Fashion-Hair/static/js/787.cda612ba.chunk.js",
+    "static/media/hero-back.jpg": "/Fashion-Hair/static/media/hero-back.7a775a7d127b132cec98.jpg",
+    "static/media/Montserrat-Regular.ttf": "/Fashion-Hair/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
+    "static/media/hero.jpg": "/Fashion-Hair/static/media/hero.d2b59d6317107d41e87d.jpg",
+    "static/media/logo.jpg": "/Fashion-Hair/static/media/logo.7ff9c437674e8fb83745.jpg",
+    "static/media/tools.svg": "/Fashion-Hair/static/media/tools.2fcd77369004e7af5a01d95e598d8a91.svg",
+    "static/media/whatsapp-logo.svg": "/Fashion-Hair/static/media/whatsapp-logo.973a7e77f1662d32198f8505db6f2a02.svg",
+    "static/media/instagram-logo.svg": "/Fashion-Hair/static/media/instagram-logo.62572c862d53f228aa8eff879e2e1d37.svg",
+    "static/media/phone-logo.svg": "/Fashion-Hair/static/media/phone-logo.e8d89a44538796efff0a90d370a999e3.svg",
+    "static/media/beard.svg": "/Fashion-Hair/static/media/beard.f5f4108c1fc1d5c90fea67b5c98eb629.svg",
+    "static/media/hair-dryer.svg": "/Fashion-Hair/static/media/hair-dryer.b9704c7d41e79f49dccec93fc03a6243.svg",
+    "index.html": "/Fashion-Hair/index.html",
+    "static/media/facebook-logo.svg": "/Fashion-Hair/static/media/facebook-logo.84ace43ac38a4da36137d9035b3a8ea5.svg",
+    "main.feae6f10.css.map": "/Fashion-Hair/static/css/main.feae6f10.css.map",
+    "main.0fd2cd61.js.map": "/Fashion-Hair/static/js/main.0fd2cd61.js.map",
+    "787.cda612ba.chunk.js.map": "/Fashion-Hair/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feae6f10.css",
+    "static/js/main.0fd2cd61.js"
+  ]
+}
