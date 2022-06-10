@@ -1,0 +1,28 @@
+.projects {
+    margin-top: 20px;
+}
+
+.slider {
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 4px 4px 6px 8px $clr1;
+    width: 80%;
+}
+
+.carousel-root {
+    text-align: center;
+}
+
+.carousel.carousel-slider {
+    margin: auto !important;
+    width: 60% !important;
+    @include for-mobile-layout {
+        width: 80% !important;
+      }
+    img{
+        height: 300px;
+        @include for-mobile-layout {
+            height:unset;
+          }
+    }
+}
