@@ -8,6 +8,7 @@ import phoneLogo from "../assets/imgs/phone-logo.svg";
 
 export const AppNav = () => {
   const [isFloatNav, setIsFloatNav] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
   return (
     <>
       <div className="flex space-between align-center navbar">
@@ -27,14 +28,49 @@ export const AppNav = () => {
             <button>Work</button>
           </NavLink>
         </nav>
+        <div className="mobile-nav">{isMobile ?
+             <div className="modal-wrapper">
+             <div className="modal-content">
+              <div className="flex column justify-center align-center">
+                <span> About</span>
+                <span> Me</span>
+                <span> Price</span>
+                <i
+              className="fa-solid fa-x"
+              onClick={() => setIsMobile(false)}
+            ></i>
+              </div>
+
+             </div>
+            </div>
+            :
+       <div> 
+            <i
+            className="fa-solid fa-bars"
+            onClick={() => setIsMobile(true)}
+          ></i>
+       </div> 
+       }
+       </div>
+
+
       </div>
 
+     
+
       <div className="float-navbar">
-        {isFloatNav ? 
-        <i className="fa-solid fa-bars" onClick={()=> setIsFloatNav(false)} name="open"></i>
-        : 
+        {isFloatNav ? (
+          <i
+            className="fa-solid fa-comment-dots"
+            onClick={() => setIsFloatNav(false)}
+            name="open"
+          ></i>
+        ) : (
           <div className="flex column float-navbar-container">
-            <i className="fa-solid fa-x" onClick={()=> setIsFloatNav(true)}></i>
+            <i
+              className="fa-solid fa-x"
+              onClick={() => setIsFloatNav(true)}
+            ></i>
             <a
               href="https://www.facebook.com/Yakir-Maman-Fashion-Hair-100739034655366/"
               target="_blank"
@@ -53,14 +89,11 @@ export const AppNav = () => {
             >
               <img src={whatsappLogo} alt="whatsappLogo" />
             </a>
-            <a
-              href="tel: +972534234428"
-              target="_blank"
-            >
+            <a href="tel: +972534234428" target="_blank">
               <img src={phoneLogo} alt="phoneLogo" />
             </a>
           </div>
-        }
+        )}
       </div>
     </>
   );
