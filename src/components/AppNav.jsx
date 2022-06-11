@@ -1,14 +1,20 @@
-import React, { useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/imgs/logo.jpg";
 import whatsappLogo from "../assets/imgs/whatsapp-logo.svg";
 import instagramLogo from "../assets/imgs/instagram-logo.svg";
 import facebookLogo from "../assets/imgs/facebook-logo.svg";
 import phoneLogo from "../assets/imgs/phone-logo.svg";
+import { useLocation } from "react-router-dom";
 
 export const AppNav = () => {
   const [isFloatNav, setIsFloatNav] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
+  const location = useLocation();
+  useLayoutEffect(() => {
+    setIsMobile(false);
+  }, [location]);
+
   return (
     <>
       <div className="flex space-between align-center navbar">
