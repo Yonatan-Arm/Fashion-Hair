@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fashion-Hair/static/css/main.17dcbab2.css",
-    "main.js": "/Fashion-Hair/static/js/main.b13185c8.js",
+    "main.js": "/Fashion-Hair/static/js/main.d3a57c2b.js",
     "static/js/787.cda612ba.chunk.js": "/Fashion-Hair/static/js/787.cda612ba.chunk.js",
     "static/media/hero-back.jpg": "/Fashion-Hair/static/media/hero-back.7a775a7d127b132cec98.jpg",
     "static/media/Montserrat-Regular.ttf": "/Fashion-Hair/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
@@ -17,11 +17,11 @@
     "index.html": "/Fashion-Hair/index.html",
     "static/media/facebook-logo.svg": "/Fashion-Hair/static/media/facebook-logo.84ace43ac38a4da36137d9035b3a8ea5.svg",
     "main.17dcbab2.css.map": "/Fashion-Hair/static/css/main.17dcbab2.css.map",
-    "main.b13185c8.js.map": "/Fashion-Hair/static/js/main.b13185c8.js.map",
+    "main.d3a57c2b.js.map": "/Fashion-Hair/static/js/main.d3a57c2b.js.map",
     "787.cda612ba.chunk.js.map": "/Fashion-Hair/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17dcbab2.css",
-    "static/js/main.b13185c8.js"
+    "static/js/main.d3a57c2b.js"
   ]
 }
