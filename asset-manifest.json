@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Fashion-Hair/static/css/main.feae6f10.css",
-    "main.js": "/Fashion-Hair/static/js/main.0fd2cd61.js",
+    "main.css": "/Fashion-Hair/static/css/main.5d2fc486.css",
+    "main.js": "/Fashion-Hair/static/js/main.60056de5.js",
     "static/js/787.cda612ba.chunk.js": "/Fashion-Hair/static/js/787.cda612ba.chunk.js",
     "static/media/hero-back.jpg": "/Fashion-Hair/static/media/hero-back.7a775a7d127b132cec98.jpg",
     "static/media/Montserrat-Regular.ttf": "/Fashion-Hair/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
@@ -15,12 +15,12 @@
     "static/media/hair-dryer.svg": "/Fashion-Hair/static/media/hair-dryer.b9704c7d41e79f49dccec93fc03a6243.svg",
     "index.html": "/Fashion-Hair/index.html",
     "static/media/facebook-logo.svg": "/Fashion-Hair/static/media/facebook-logo.84ace43ac38a4da36137d9035b3a8ea5.svg",
-    "main.feae6f10.css.map": "/Fashion-Hair/static/css/main.feae6f10.css.map",
-    "main.0fd2cd61.js.map": "/Fashion-Hair/static/js/main.0fd2cd61.js.map",
+    "main.5d2fc486.css.map": "/Fashion-Hair/static/css/main.5d2fc486.css.map",
+    "main.60056de5.js.map": "/Fashion-Hair/static/js/main.60056de5.js.map",
     "787.cda612ba.chunk.js.map": "/Fashion-Hair/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.feae6f10.css",
-    "static/js/main.0fd2cd61.js"
+    "static/css/main.5d2fc486.css",
+    "static/js/main.60056de5.js"
   ]
 }
